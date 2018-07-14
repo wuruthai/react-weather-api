@@ -12,6 +12,7 @@ $( document ).ready( function () {
 	} else {
 		alert( "Change your Browser!" );
 	}
+
 	
 	function getWeather() {
 		var apiurl = api + lat + "," + lon;
